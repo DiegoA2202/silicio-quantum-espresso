@@ -1,0 +1,7 @@
+&BANDS
+  prefix = 'si_libro',
+  outdir = './tmp_libro/',
+  filband = 'bandas_si_tJJTJe/si_bandas.dat',
+  lsym = .false.,
+  no_overlap = .true.,
+/

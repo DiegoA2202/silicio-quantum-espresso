@@ -1,0 +1,23 @@
+ANALISIS DE BANDAS DEL SILICIO
+
+Puntos k: 281
+Bandas: 12
+
+VBM: 6.018000 eV
+Posicion del VBM: Gamma
+k del VBM, coordenadas cartesianas del archivo bands.x: [0. 0. 0.]
+
+CBM: 6.665000 eV
+Posicion del CBM: entre Gamma y X
+k del CBM, coordenadas cartesianas del archivo bands.x: [0.       0.592202 0.      ]
+
+Brecha fundamental muestreada: 0.647000 eV
+Menor brecha directa muestreada: 2.589000 eV
+Posicion de la menor brecha directa: Gamma
+
+Clasificacion: Indirecta en el recorrido muestreado
+
+Las energias de las figuras se referencian al VBM.
+Los extremos corresponden solo al recorrido calculado.
+Se requiere refinamiento para establecer la precision de la brecha.
+El resultado es una brecha de Kohn-Sham del modelo utilizado.

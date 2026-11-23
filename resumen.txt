@@ -1,0 +1,5 @@
+
+Menor energía entre los puntos calculados:
+a = 5.4500 angstrom; E = -15.7287606700 Ry
+El mínimo está dentro del intervalo.
+El parámetro de equilibrio se determinará mediante ajuste.

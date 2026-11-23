@@ -1,0 +1,44 @@
+&CONTROL
+    calculation = 'bands',
+    restart_mode = 'from_scratch',
+    prefix = 'si_libro',
+    pseudo_dir = './pseudo/',
+    outdir = './tmp_libro/',
+/
+
+&SYSTEM
+    ibrav = 0,
+    nat = 2,
+    ntyp = 1,
+    ecutwfc = 80,
+    ecutrho = 800,
+    occupations = 'fixed',
+  nbnd = 12,
+/
+
+&ELECTRONS
+    conv_thr = 1.0d-10,
+    mixing_beta = 0.7,
+  startingpot = 'file',
+  diago_full_acc = .true.,
+/
+
+ATOMIC_SPECIES
+Si  28.085  Si_PBE_USPP.UPF
+
+ATOMIC_POSITIONS crystal
+Si  0.00  0.00  0.00
+Si  0.25  0.25  0.25
+K_POINTS crystal_b
+6
+0.500000  0.500000  0.500000  60
+0.000000  0.000000  0.000000  80
+0.500000  0.000000  0.500000  40
+0.500000  0.250000  0.750000  40
+0.375000  0.375000  0.750000  60
+0.000000  0.000000  0.000000   1
+
+CELL_PARAMETERS angstrom
+0.000  2.735411  2.735411
+2.735411  0.000  2.735411
+2.735411  2.735411  0.000
